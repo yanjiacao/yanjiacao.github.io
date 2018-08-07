@@ -5967,7 +5967,7 @@ a.badge:focus {
 }
 
 .carousel-inner {
-  position: relative;
+  position:relative;
   width: 100%;
   overflow: hidden;
 }
@@ -5975,26 +5975,32 @@ a.badge:focus {
 .carousel-inner > .item {
   position: relative;
   display: none;
-  -webkit-transition: 0.6s ease-in-out left;
-     -moz-transition: 0.6s ease-in-out left;
-       -o-transition: 0.6s ease-in-out left;
-          transition: 0.6s ease-in-out left;
+  -webkit-transition: 2s ease-in-out left;
+     -moz-transition: 2s ease-in-out left;
+       -o-transition: 2s ease-in-out left;
+          transition: 2s ease-in-out left;
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+  display: center;
   line-height: 1;
+
+  height:500px;
+  width:800px;
+  background: #fff;
 }
 
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
+  background: #fff;
 }
 
 .carousel-inner > .active {
   left: 0;
+  
 }
 
 .carousel-inner > .next,
@@ -6089,14 +6095,14 @@ a.badge:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 15px;
+  padding: 10px;
   background: #333333;
   background: rgba(0, 0, 0, 0.75);
 }
 
 .carousel-caption h4,
 .carousel-caption p {
-  line-height: 20px;
+  line-height: 10px;
   color: #ffffff;
 }
 
